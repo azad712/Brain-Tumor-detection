@@ -1,0 +1,27 @@
+# Brain Tumor Detection Dataset Configuration for YOLOv8
+# Dataset: Brain Tumor with Bounding Boxes
+# Classes: Glioma, Meningioma, No Tumor, Pituitary
+
+# Dataset paths (relative to this file)
+path: .  # dataset root directory
+train: Train  # train images directory
+val: Val  # validation images directory
+
+# Number of classes
+nc: 4
+
+# Class names
+names:
+  0: Glioma
+  1: Meningioma
+  2: No Tumor
+  3: Pituitary
+
+# Class descriptions
+class_descriptions:
+  Glioma: "Glioma brain tumor - originates from glial cells"
+  Meningioma: "Meningioma brain tumor - originates from meninges"
+  No Tumor: "No tumor detected in brain scan"
+  Pituitary: "Pituitary tumor - originates from pituitary gland"
+
+# Made with Bob
